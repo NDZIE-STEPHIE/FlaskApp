@@ -77,4 +77,4 @@ jobs:
         subject: "Tests CI échoués"
         body: "Les tests unitaires ont échoué sur la branche main."
         to: "ndziestephie@gmail.com"
-        from: "CI Pipeline"
+        from: "GitHub Actions"
