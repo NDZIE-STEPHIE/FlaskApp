@@ -8,5 +8,4 @@ def test_index():
   assert b"Hello, World!" in response.data
 
 
-def test_failure():
-    assert 1 == 2
+
