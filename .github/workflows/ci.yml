@@ -73,6 +73,7 @@ jobs:
         username: ${{ secrets.PRIVATE_REGISTRY_USER }}
         password: ${{ secrets.PRIVATE_REGISTRY_PASSWORD }}
 
+
     - name: Build and push to both registries
       uses: docker/build-push-action@v4
       with:
