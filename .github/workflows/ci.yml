@@ -76,5 +76,5 @@ jobs:
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: "Tests CI échoués"
         body: "Les tests unitaires ont échoué sur la branche main."
-        to: "ndziestephie@gmail.com"
-        from: "GitHub Actions"
+        to: ndziestephie@gmail.com
+        from: GitHub Actions
